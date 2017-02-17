@@ -4,16 +4,20 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { ClarityModule } from 'clarity-angular';
 import { AppComponent } from './app.component';
+import { SubmitArticleComponent } from './submit-article/submit-article.component';
+import { NgSemanticModule } from "ng-semantic";
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SubmitArticleComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-    ClarityModule.forRoot()
+    ClarityModule.forRoot(),
+  
   ],
   providers: [],
   bootstrap: [AppComponent]

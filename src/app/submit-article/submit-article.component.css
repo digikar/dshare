@@ -1,0 +1,20 @@
+#grad {
+  background: blue; /* For browsers that do not support gradients */
+  background: linear-gradient(to bottom right,#89CBDF,#89CBDF); /* Standard syntax */
+  padding: 20px;
+  border: blue;
+  border-width: 2px;
+}
+
+#sizeh{
+    font-size: 18px;
+}
+#centeralign{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    margin-top: -10px;
+    margin-left: -10px;
+    width: 800px;
+    height: 800px;
+}
